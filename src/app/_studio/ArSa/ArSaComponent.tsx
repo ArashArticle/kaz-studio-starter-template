@@ -9,7 +9,7 @@ export function ArsaComponent(props: EArSaProps) {
     return (
         <div className={styles.arsa}>
             <p>{props.label}</p>
-            <img src={props.image} alt="ArSa" />
+            <img src={props.img} alt="ArSa" />
         </div>
     );
 }
