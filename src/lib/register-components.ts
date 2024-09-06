@@ -4,10 +4,15 @@ import {
 } from "@contentful/experiences-sdk-react";
 import StudioConfig from "../../studio.config";
 import { SiteButtonDefinition, SiteButtonComponent } from "@studio/SiteButton";
+import { ArSaDefinition, ArsaComponent } from "@studio/ArSa";
 import {
   ExternalVideoComponent,
   ExternalVideoDefinition,
 } from "@studio/ExternalVideo";
+
+import { UselessComponent, UselessDefinition } from "@studio/Useless";
+import { ColorPickerCustom, ColorPickerDefinition } from "@studio/ColorPicker";
+
 
 defineComponents([
   {
@@ -21,6 +26,18 @@ defineComponents([
     component: ExternalVideoComponent,
     definition: ExternalVideoDefinition,
   },
+  {
+    component: ArsaComponent,
+    definition: ArSaDefinition,
+  },
+  {
+    component: UselessComponent,
+    definition: UselessDefinition,
+  },
+  {
+    component: ColorPickerCustom,
+    definition: ColorPickerDefinition,
+  }
   /*
    * After a new folder is created in '/_components' you need to register it below in a JSON format
    */

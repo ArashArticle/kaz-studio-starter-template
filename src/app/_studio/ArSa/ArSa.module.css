@@ -1,0 +1,10 @@
+.arsa  {
+  width: 600px;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.arsa > p {
+  font-size: 1em;
+  margin: 10px 0;
+}
